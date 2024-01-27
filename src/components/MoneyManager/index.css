@@ -1,0 +1,144 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  width: 80%;
+  max-width: 550px;
+}
+.header-container {
+  background-image: url('https://learning.ccbp.in/question/20ad2864-bbc3-4582-a488-5725f4e9292c');
+  background-size: cover;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+  margin-top: 64px;
+}
+.heading {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.header-content {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'roboto';
+  margin: 0px;
+}
+.span {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.transaction.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 424px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+
+.transaction-header {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.input-label {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: 'roboto';
+  line-height: 1.4;
+  margin-bottom: 0px;
+}
+.input {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'roboto';
+  border: 1px solid #d7dfe9;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-width: 157px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'roboto';
+  font-size: 14px;
+  min-width: 25px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.history-transaction {
+  width: 100%;
+  min-height: 326px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  margin-top: 32px;
+}
+
+.transactions-table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+.transactions-table {
+  padding-left: 0;
+  margin: 0px;
+}
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table-header-cell {
+  color: #334155;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'roboto';
+  width: 30%;
+  border-right: none;
+}
